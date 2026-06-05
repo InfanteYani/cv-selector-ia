@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Base de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
