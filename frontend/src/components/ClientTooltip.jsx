@@ -85,7 +85,7 @@ const TooltipContent = React.forwardRef(({ children }, _) => {
 
   return createPortal(
     <div ref={tooltipRef}
-      className="bg-zinc-900 border border-zinc-700 px-3 py-2 rounded-lg fixed z-50 shadow-xl"
+      className="bg-white border border-rose-200 px-3 py-2 rounded-lg fixed z-50 shadow-xl"
       style={getTooltipPosition()}>
       {children}
     </div>,
